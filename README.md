@@ -53,8 +53,6 @@ If you are using our toolkit, please kindly cite our paper (available at doc/cyt
 
   author={Wang, Xiaolin},
 
-  booktitle={To appear},
-
   year={2018}
 
 }
