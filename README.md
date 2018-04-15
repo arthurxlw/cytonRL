@@ -6,8 +6,11 @@ Xiaolin Wang (xiaolin.wang@nict.go.jp, arthur.xlw@gmail.com)
 
 1) Prerequest
 	cuda >= 9.0 
+	
 	cudnn >= 7.0
+	
 	opencv  https://sourceforge.net/projects/opencvlibrary/
+	
 	The Arcade Learning Environment (ALE)  https://github.com/mgbellemare/Arcade-Learning-Environment
 
 2) Compile
