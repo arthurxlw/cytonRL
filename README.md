@@ -4,7 +4,7 @@ Xiaolin Wang (xiaolin.wang@nict.go.jp, arthur.xlw@gmail.com)
 
 ================================================
 
-1) Prerequest
+# 1) Prerequest
 
 	cuda >= 9.0 
 
@@ -15,11 +15,11 @@ Xiaolin Wang (xiaolin.wang@nict.go.jp, arthur.xlw@gmail.com)
 	The Arcade Learning Environment (ALE)  https://github.com/mgbellemare/Arcade-Learning-Environment
 
 
-2) Compile
+# 2) Compile
 	
 	make
 
-3) Train
+# 3) Train
 
 bin/cytonRl --env roms/breakout.bin --mode train --saveModel model/model --showScreen 1
 
@@ -29,7 +29,7 @@ bin/cytonRl --env roms/breakout.bin --mode train --saveModel model/model --showS
 
 The second command turn off the game window which makes the program run much faster. The game window can be brought back by creating a empty file "mode/model.screen", or turned off again by deleting that file.
 
-4) Test
+# 4) Test
 
 bin/cytonRl --mode test --env roms/breakout.bin  --loadModel model/model.100000000 --showScreen 1
 
@@ -60,7 +60,7 @@ If you are using our toolkit, please kindly cite our paper (available at doc/cyt
 ================================================
 
 
-5) Usage
+# 5) Usage
 
 bin/cytonRl --help
 
